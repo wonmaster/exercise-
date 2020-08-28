@@ -8,4 +8,4 @@ for line in fh :
     num = float(line.split(": ",1)[2])
     tot = tot + num
     count +=1
-print ("Average spam confidence: ",tot/count)
+print ("Average spam confidence:",tot/count)
